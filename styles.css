@@ -1,0 +1,1926 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Saira+Condensed&display=swap');
+
+
+
+body{
+  background-color: #0B0C0C;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+  
+}
+
+
+  @keyframes shrink {
+    0% {
+      background-size: 180% 180%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }  
+
+  .logo{
+    height:60px;
+    margin-left: 150px;
+   
+  }
+
+  .head{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    background-color: transparent;
+    margin-top: 15px;
+    width: 100vw;
+  }
+  .head a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+  } 
+
+  .nav a:hover{
+    cursor: grabbing;
+  }
+
+  nav{
+    display:flex;
+    flex-direction: row;
+    column-gap: 80px;
+    color:white;
+    
+    font-family:  Helvetica, sans-serif;
+  }
+
+  .home{margin-top: 18px;}
+  .contact{margin-top: 18px;}
+  .portfolio{margin-top: 18px;}
+  .about{margin-top: 18px;}
+
+  .button{
+    height:40px;
+    width:180px;
+    color:white;
+    margin-top: 8px;
+    border: 2px solid rgb(227, 11, 92);
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    
+    background-color: transparent;
+  }
+
+  .button:hover{
+    background-color: palevioletred;
+    color: black;
+  }
+
+  .drone_section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    background-size: 100vw,500px;
+    background-repeat: no-repeat;
+    background-image: url('./images/1\ back.jpg');
+    
+    
+    height: 500px;
+    width:100vw;
+    animation: shrink 5s infinite ;
+    position: relative;
+    
+     
+    
+}
+
+
+
+  
+
+  .sec1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 120px;
+    position: absolute;
+  }
+
+  .professional{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+    
+    color: white;
+    margin: 0px;
+    height:70px;
+    width: 450px;
+    
+    
+  }
+
+  .drone{
+    font-size: 70px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+    color:palevioletred;
+    
+    margin: 0px;
+    height:80px;
+    width: 450px;
+    
+  }
+
+  .service{
+    font-size: 70px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+    color:palevioletred;
+    
+    margin:0px;
+    height:100px;
+    width: 450px;
+    
+    
+
+  }
+
+
+  .sec2{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 700px;
+    
+  }
+
+  .drone_image{
+    width:600px;
+    padding-left: 80px;
+  }
+
+
+  .top_section{
+   
+    background-image: url('./images/sexy.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw,100vh;
+    
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: example;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transition: 5s;
+    animation-direction: alternate-reverse;
+    animation-play-state: running ;
+    
+    
+
+  }
+
+  @keyframes example{
+    0%{
+      background-image: url('./images/2\ back.JPG');
+    }
+    25%{
+      background-image: url('./images/3\ back.JPG');
+    }
+    50%{
+      background-image: url('./images/5\ back.JPG');
+    }
+    75%{
+      background-image: url('./images/2\ back.JPG');
+    }
+    100%{
+      background-image: url('./images/5\ back.JPG');
+    }
+  }
+
+  .memories{
+    height:80px;
+    width:750px;
+    color:palevioletred;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 100px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 900;
+
+
+    /* background: -webkit-linear-gradient(45deg,red,purple,rgb(222, 49, 99),rgb(220, 20, 60));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    animation: memoriesanimation 2s ease;
+
+    
+  }
+
+  .span01{
+    color:white;
+    
+  }
+  .moments{
+    height:24px;
+    width:750px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0px;
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    animation: momentsanimation 2s ;
+
+  }
+
+  @keyframes memoriesanimation {
+    0%{font-size: 0px;}
+    100%{font-size: 70px;}
+    
+  }
+
+  @keyframes momentsanimation{
+    0%{
+       font-size: 0px;
+       display: none;
+    }
+
+    100%{
+      font-size: 27px;
+    }
+  }
+
+  .photo_flex{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 150px;
+    overflow-x: auto !important;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: center safe;
+    align-items: center;
+    /* display: none; */
+    
+    
+    
+    
+
+  }
+
+  
+  .photo{
+    height: 200px;
+    width:250px;
+    background-color: blue;
+  }
+
+
+
+  .images{
+    height: 200px;
+    width:250px;
+    
+  }
+  
+  .top_section2{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .div1{
+    height: 200px;
+    width:550px;
+    margin-top: 80px;
+    animation: story 2.5s ease;
+
+  }
+
+  .top_h2{
+    color:palevioletred;
+    font-size: 40px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+  }
+  .top_h2_span{
+    color:white;
+  }
+  .top_h2_p{
+    color:rgba(245, 245, 245, 0.882);
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+  }
+
+  .div2{
+    height: 200px;
+    width:300px;
+    margin-top: 80px;
+    margin-right: 15px;
+
+  }
+  .div3{
+    height: 200px;
+    width:300px;
+    margin-top: 80px;
+    margin-left: 15px;
+
+  }
+
+
+  
+
+
+  .div4{
+    height: 300px;
+    width:410px;
+    background-color: rgba(128, 128, 128, 0.224);
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .div5{
+    height: 300px;
+    width:410px;
+    background-color: rgba(128, 128, 128, 0.224);
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .div6{
+    height: 300px;
+    width:410px;
+    background-color: rgba(128, 128, 128, 0.224);
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .one{
+    height:300px;
+    width:180px;
+    
+  }
+
+  .divsone{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color:palevioletred;
+    text-transform: uppercase;
+  }
+
+  .divstwo{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    padding:8px;
+    color:white;
+
+  }
+
+  .divsimage{
+    height:300px;
+    width:230px;
+  }
+
+  footer{
+    height:78vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    row-gap: 15px;
+    column-gap: 35px;
+    background-color: #0B0C0C;
+  }
+
+  .fot1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    row-gap: 30px;
+  }
+
+  .footerone{
+    height:261px;
+    width:245px;
+    margin-top: 80px;
+    margin-left: 80px;
+    
+    
+  }
+
+  .f11image{
+    height:50%;
+    width:245px;
+    
+    
+  }
+
+  .f12para{
+    font-size: 20px;
+    text-align: center;
+    
+    font-family: 'Saira Condensed', sans-serif;
+    color: #7D8590;
+    
+
+  }
+  .footertwo{
+    height:261px;
+    width:245px;
+    margin-left: 20px;
+    margin-top: 65px;
+    
+  }
+
+  .f21{
+    color:palevioletred;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 25px;
+    padding-left: 19px;
+  }
+
+  .f22{
+    color:#7D8590;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+  }
+
+  .oness{
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .footerthree{
+    height:261px;
+    width:245px;
+    
+    margin-top: 65px;
+    
+  }
+
+  .f31{
+    color:palevioletred;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 25px;
+    padding-left: 19px;
+  }
+
+  .f32{
+    color:#7D8590;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+  }
+
+  .f32 a{
+    text-decoration: none;
+    color:#7D8590;
+  }
+  .footerfour{
+    height:261px;
+    width:350px;
+    
+    margin-top: 65px;
+
+  }
+
+  .f41{
+    font-size: 25px;
+    color:palevioletred;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    padding-left: 18px;
+    
+
+  }
+
+  .f42{
+    height:50px;
+    width:180px;
+    
+    
+  }
+
+  /* SOCIAL ICONS STARTS*/
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
+
+.footer-social-links{
+    font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20%;
+  padding-top: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-links a{
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: palevioletred;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+    position: relative;
+    top: 2px;
+    left: 1px; 
+}
+.footer-social-links a:before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid grey;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    
+}
+.footer-social-links a:hover{
+    color: #fff;
+}
+.footer-social-links a:hover:before{
+    background: #111;
+}
+  
+/*SOCIAL ICONS ENDS*/
+
+/*  jugaaadiya person*/
+/* waves */
+.ocean {
+  height: 130px; /* change the height of the waves here */
+  width: 100vw;
+  position: relative;
+ 
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  
+  margin-top: 50px;
+}
+
+.wave {
+  background-image: url("./images/ssss-removebg-preview.png");
+  position: absolute;
+  width: 200%;
+  height: 470px;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;
+  bottom: 0px;
+}
+
+.wave:nth-of-type(2) {
+  bottom: 0;
+  animation: wave 18s linear reverse infinite;
+  opacity: 0.5;
+  bottom: 0px;
+}
+
+.wave:nth-of-type(3) {
+  bottom: 0;
+  animation: wave 20s -1s linear infinite;
+  opacity: 0.5;
+  bottom: 0px;
+}
+
+@keyframes wave {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-25%);}
+    100% {transform: translateX(-50%);}
+}
+
+
+
+/*  jugaaadiya person*/
+
+
+
+
+.newsletter{
+  height: 50vh;
+  width:100vw;
+  background-color: rgba(128, 128, 128, 0.162);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingnewsletter{
+  
+  color:palevioletred;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  
+  
+  height: 80px;
+  width:550px
+  
+}
+
+.paranewsletter{
+  color:white;
+  text-align: center;
+  font-size: 15px;
+  
+  
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  height: 55px;
+  width:550px;
+
+}
+
+.inboxdiv{
+  height: 100px;
+  width:550px;
+  
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.inboxdiv form{
+  display: flex;
+  width:100vw;
+}
+
+.inbox{
+  height:42px;
+  width:80%;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: transparent;
+  border: 3px solid rgba(128, 128, 128, 0.162);
+  color:whitesmoke;
+  
+}
+.submit{
+  height:50px;
+  width:20%;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 20px;
+  color:palevioletred;
+  background-color: transparent;
+  border: 3px solid rgba(128, 128, 128, 0.162);
+}
+
+.submit:hover{
+  color:white;
+  
+}
+
+
+
+.top_section3{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  column-gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+.topsection3div1{
+ 
+  height:500px;
+  width:500px;
+  margin-left: 80px;
+
+  background-image: url('./images/flexbox/4f.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px,500px;
+  animation-name: exampless;
+  
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transition: 5s;
+    animation-direction: alternate-reverse;
+    animation-play-state: running ;
+
+  
+  
+}
+.imagesec3{
+  height:500px;
+  width:500px;
+  
+}
+
+@keyframes exampless{
+  0%{
+    background-image: url('./images/flexbox/4f.jpg');
+  }
+  25%{
+    background-image: url('./images/flexbox/5f.jpg');
+  }
+  50%{
+    background-image: url('./images/flexbox/2f.jpg');
+  }
+  75%{
+    background-image: url('./images/flexbox/7f.jpg');
+  }
+  100%{
+    background-image: url('./images/flexbox/4f.jpg');
+  }
+}
+
+.topsection3div2{
+  
+  height:500px;
+  width:600px;
+}
+.topsection3div2headline{
+  font-size: 25px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color:white;
+  
+}
+
+.lulu{
+  color:palevioletred;
+}
+
+.topsection3div2para{
+  color:whitesmoke;
+  text-align: left;
+  font-size: 20px;
+  width:450px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #ffffffb8;
+  
+}
+
+.services{
+  height:100vh;
+  width:100vw;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.services h2{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  height: 100px;
+  width:500px;
+  
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.services h2 span{
+  color:palevioletred;
+}
+
+.mainu{
+  display:flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.mainu .ser{
+  height: 475px;
+  width:400px;
+  background-color: rgba(128, 128, 128, 0.492);
+  border: 3px solid palevioletred;
+  margin-bottom: 50px;
+  
+}
+
+.ser img{
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.ser h2{
+  font-size: 26px;
+  text-transform: uppercase;
+  width:250px;
+  height: 50px;
+  
+  padding-top: 15px;
+  padding-left: 5px;
+
+  
+  
+}
+
+.ser h2 span{
+  color:palevioletred;
+}
+
+.ser p{
+  color: white;
+  height:200px;
+  width:350px;
+  
+  font-size: 20px;
+  font-family: 'Saira Condensed', sans-serif;
+  text-align: left;
+  padding-left: 18px;
+}
+
+.animation_section{
+  height:100px;
+  width:100vw;
+  /* background-color: green; */
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  
+  height:150px;
+  /* width:100vw; */
+  font-size: 80px;
+  
+  -webkit-text-stroke-color: gray;
+  -webkit-text-stroke-width: 2px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+  color:transparent;
+  
+  
+  
+}
+
+.marquee2 span {
+  animation-delay: 10s;
+  
+  
+  
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+
+
+
+
+
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+/*MOBILE SETTINGS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  body{
+    background-color: #0B0C0C;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100vw;
+    
+    
+  }
+  
+  
+    @keyframes shrink {
+      0% {
+        background-size: 180% 180%;
+      }
+      100% {
+        background-size: 100% 100%;
+      }
+    }  
+  
+    .logo{
+      height:60px;
+      margin-left: 0;
+     
+    }
+  
+    .head{
+      display: flex;
+      flex-direction: row;
+      column-gap: 280px;
+      background-color: transparent;
+      margin-top: 15px;
+      width: 100vw;
+    }
+    
+  
+   
+  
+    
+  
+  
+    .drone_section{
+      display: flex;
+      flex-direction: row;
+      
+      
+      background-size: 100vw,500px;
+      background-repeat: no-repeat;
+      background-image: url('./images/1\ back.jpg');
+      
+      
+      height: 500px;
+      width:100vw;
+      animation: shrink 5s infinite ;
+      position: relative;
+      overflow-x: hidden;
+       
+      
+  }
+  
+  
+  
+    
+  
+    .sec1{
+      display: flex;
+      flex-direction: column;
+      width:100vw;
+      margin-left: 80px;
+      margin-top: 120px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .professional{
+      font-size: 50px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight:bolder;
+      
+      color: white;
+      margin-left: -100px;
+      height:70px;
+      width: 100vw;
+      
+      
+      
+    }
+  
+    .drone{
+      font-size: 70px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight:bolder;
+      color:palevioletred;
+      
+      margin: 0px;
+      height:80px;
+      width: 100vw;
+      margin-left: -100px;
+      
+    }
+  
+    .service{
+      font-size: 70px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight:bolder;
+      color:palevioletred;
+      
+      margin:0px;
+      height:100px;
+      width: 100vw;
+      margin-left: -100px;
+      
+      
+  
+    }
+  
+  
+    .sec2{
+      margin-top: 150px;
+      position: absolute;
+      display: none;
+      
+      
+    }
+
+    
+    .drone_image{
+      width:600px;
+      padding-left: 80px;
+      display: none;
+    }
+  
+  
+    .top_section{
+     
+      
+      overflow-x: hidden;
+      height: 100vh;
+      width:100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation-name: example;
+      animation-duration: 18s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      transition: 5s;
+      animation-direction: alternate-reverse;
+      animation-play-state: running ;
+      
+      
+  
+    }
+  
+    @keyframes example{
+      0%{
+        background-image: url('./images/mobile/1.png');
+        background-size: 100vw,100vh;
+      }
+      25%{
+        background-image: url('./images/mobile/2.png');
+        background-size: 100vw,100vh;
+      }
+      50%{
+        background-image: url('./images/mobile/3.png');
+        background-size: 100vw,100vh;
+      }
+      75%{
+        background-image: url('./images/mobile/4.png');
+        background-size: 100vw,100vh;
+      }
+      100%{
+        background-image: url('./images/mobile/5.png');
+        background-size: 100vw,100vh;
+      }
+    }
+  
+    .memories{
+      height:150px;
+      width:60vw;
+      color:palevioletred;
+      text-transform: uppercase;
+      font-size: 50px;
+      text-align: center;
+      margin: 0px;
+      margin-top: 100px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-weight: 900;
+      
+  
+  
+      /* background: -webkit-linear-gradient(45deg,red,purple,rgb(222, 49, 99),rgb(220, 20, 60));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent; */
+  
+      animation: memoriesanimation 2s ease;
+  
+      
+    }
+
+    @keyframes memoriesanimation {
+      0%{font-size: 0px;}
+      100%{font-size: 50px;}
+      
+    }
+  
+    .span01{
+      color:white;
+      
+    }
+    .moments{
+      height:150px;
+      width:60vw;
+      color:rgb(255, 255, 255);
+      text-transform: uppercase;
+      margin: 0px;
+      text-align: center;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-weight: bolder;
+      font-size: 17px;
+      animation: momentsanimation 2s ;
+      margin-top: 60px;
+      
+  
+    }
+  
+    
+  
+    @keyframes momentsanimation{
+      0%{
+         font-size: 0px;
+         display: none;
+      }
+  
+      100%{
+        font-size: 17px;
+      }
+    }
+  
+    .photo_flex{
+      display: flex;
+      flex-direction: row;
+      row-gap: 20px;
+      column-gap: 20px;
+      margin-top: 90px;
+      
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      justify-content: center safe;
+      align-items: center;
+      display: none;
+      
+      
+      
+      
+  
+    }
+  
+    
+    .photo{
+      height: 300px;
+      width:250px;
+      background-color: blue;
+      display: none;
+    }
+  
+  
+  
+    .images{
+      height: 300px;
+      width:250px;
+      display: none;
+      
+    }
+    
+    .top_section2{
+      
+      width:100vw;
+      height: 160vh;
+      overflow-x: hidden;
+      
+
+      display: flex;
+      flex-direction: row;
+      /* column-gap: 15px; 
+      row-gap: 15px; 
+      justify-content: left;
+      align-items:left;
+      flex-wrap: wrap;  */
+      
+    }
+    .div1{
+      height: 100px;
+      width:550px;
+      margin:0px;
+      padding:0px;
+      margin-top: 25px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:50vw;
+     
+      
+  
+    }
+  
+    .top_h2{
+      color:palevioletred;
+      font-size: 30px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      margin-top: 20px;
+    
+  
+    }
+    .top_h2_span{
+      color:white;
+    }
+    .top_h2_p{
+      color:rgba(245, 245, 245, 0.882);
+      font-size: 18px;
+      padding-left: 5px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+    }
+  
+    .div2{
+      height: 200px;
+      width:300px;
+      margin-top: 80px;
+      margin-right: 15px;
+      
+      margin: 0px;
+     
+      
+  
+    }
+    .div3{
+      height: 200px;
+      width:300px;
+      margin-top: 80px;
+      margin-left: 15px;
+      display: none;
+  
+    }
+  
+  
+    
+  
+  
+    .div4{
+      height: 300px;
+      width:100vw;
+      background-color: rgba(128, 128, 128, 0.224);
+      display: flex;
+      flex-direction: row;
+      /* margin-top: 50px;
+      margin-bottom: 50px; */
+      margin: 0px;
+      padding: 0px;
+      
+      justify-content: center;
+
+  
+    }
+  
+    .div5{
+      height: 300px;
+      width:100vw;
+      background-color: rgba(128, 128, 128, 0.224);
+      display: flex;
+      flex-direction: row;
+      margin: 0px;
+      padding: 0px;
+      justify-content: center;
+   
+    }
+  
+    .div6{
+      height: 300px;
+      width:100vw;
+      background-color: rgba(128, 128, 128, 0.224);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+  
+    }
+  
+    .one{
+      height:300px;
+      width:180px;
+      
+    }
+  
+    .divsone{
+      text-align: center;
+      font-size: 25px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      color:palevioletred;
+      text-transform: uppercase;
+    }
+  
+    .divstwo{
+      text-align: center;
+      font-size: 20px;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      padding:8px;
+      color:white;
+  
+    }
+  
+    .divsimage{
+      height:300px;
+      width:inherit;
+    }
+  
+    footer{
+      
+      width: 100vw;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+      justify-content: center;
+      align-items: center;
+      column-gap: 0px;
+      row-gap: 0px;
+      
+      
+     
+      
+      
+      background-color: #0B0C0C;
+    }
+  
+    .footerone{
+      height:261px;
+      width:245px;
+      margin-top: 80px;
+      
+      margin-left: 0px;
+      
+      
+      
+    }
+  
+    .f11image{
+      height:50%;
+      width:245px;
+      
+      
+    }
+  
+    .f12para{
+      font-size: 20px;
+      text-align: center;
+      
+      font-family: 'Saira Condensed', sans-serif;
+      color: #7D8590;
+      
+  
+    }
+    .footertwo{
+      height:261px;
+      width:245px;
+      margin-left: 0px;
+      
+      
+      
+    }
+  
+    .f21{
+      color:palevioletred;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-size: 25px;
+      padding-left: 19px;
+    }
+  
+    .f22{
+      color:#7D8590;
+      font-family: 'Saira Condensed', sans-serif;
+      font-size: 20px;
+    }
+  
+    .oness{
+      text-align: left;
+      word-wrap: break-word;
+    }
+    .footerthree{
+      height:261px;
+      width:245px;
+     
+      
+      display: none;
+      
+    }
+  
+    .f31{
+      color:palevioletred;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      font-size: 25px;
+      padding-left: 19px;
+    }
+  
+    .f32{
+      color:#7D8590;
+      font-family: 'Saira Condensed', sans-serif;
+      font-size: 20px;
+    }
+  
+    .f32 a{
+      text-decoration: none;
+      color:#7D8590;
+    }
+    .footerfour{
+      height:261px;
+      width:245px;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  
+    }
+  
+    .f41{
+      font-size: 25px;
+      color:palevioletred;
+      font-family: 'IBM Plex Sans Condensed', sans-serif;
+      padding-left: 18px;
+      
+      
+  
+    }
+  
+    .f42{
+      height:200px;
+      width:180px;
+      
+      
+    }
+  
+    /* SOCIAL ICONS STARTS*/
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
+
+  .footer-social-links{
+      font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20%;
+    padding-top: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .footer-social-links a{
+      width: 25px;
+      height: 25px;
+      line-height: 25px !important;
+      position: relative;
+      margin: 0 5px;
+      text-align: center;
+      display: inline-block;
+      color: palevioletred;
+      
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  }
+  .footer-social-links a i,
+  .footer-social-links a span{
+      position: relative;
+      top: 2px;
+      left: 1px; 
+  }
+  .footer-social-links a:before{
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid grey;
+      
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      
+      -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+      -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+      transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+      
+  }
+  .footer-social-links a:hover{
+      color: #fff;
+  }
+  .footer-social-links a:hover:before{
+      background: #111;
+  }
+    
+  /*SOCIAL ICONS ENDS*/
+  
+  
+  
+  .newsletter{
+    height: 50vh;
+    width:100vw;
+    background-color: rgba(128, 128, 128, 0.162);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .headingnewsletter{
+    
+    color:palevioletred;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    
+    
+    height: 80px;
+    width:100vw;
+    
+  }
+  
+  .paranewsletter{
+    color:white;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 15px;
+    
+    
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    height: 75px;
+    width:80vw;
+  
+  }
+  
+  .inboxdiv{
+    height: 100px;
+    width:100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 20px;
+  }
+  
+  .inbox{
+    height:42px;
+    width:70vw;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: transparent;
+    border: 3px solid rgba(128, 128, 128, 0.162);
+    color:whitesmoke;
+    
+  }
+  .submit{
+    height:50px;
+    width:20vw;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 20px;
+    color:palevioletred;
+    background-color: transparent;
+    border: 3px solid rgba(128, 128, 128, 0.162);
+  }
+  
+  
+  .top_section3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    column-gap: 90px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .topsection3div1{
+   
+    height:500px;
+    width:500px;
+    margin-left: 80px;
+  
+    background-image: url('./images/flexbox/4f.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px,500px;
+    animation-name: exampless;
+    
+      animation-duration: 18s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      transition: 5s;
+      animation-direction: alternate-reverse;
+      animation-play-state: running ;
+
+    display: none;  
+  
+    
+    
+  }
+  .imagesec3{
+    height:500px;
+    width:500px;
+    
+  }
+  
+  @keyframes exampless{
+    0%{
+      background-image: url('./images/flexbox/4f.jpg');
+    }
+    25%{
+      background-image: url('./images/flexbox/5f.jpg');
+    }
+    50%{
+      background-image: url('./images/flexbox/2f.jpg');
+    }
+    75%{
+      background-image: url('./images/flexbox/7f.jpg');
+    }
+    100%{
+      background-image: url('./images/flexbox/4f.jpg');
+    }
+  }
+  
+  .topsection3div2{
+    
+    height:auto;
+    width:100vw;
+    
+  }
+  .topsection3div2headline{
+    font-size: 30px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 80px;
+    text-align: center;
+    width:90vw;
+    padding-left: 15px;
+    height: 250px;
+    
+    
+    
+  }
+  
+  .lulu{
+    color:palevioletred;
+  }
+  
+  .topsection3div2para{
+    color:whitesmoke;
+    text-align: left;
+    font-size: 20px;
+    width:80vw;
+    height:200px;
+    
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #ffffffb8;
+    margin-left: 40px;
+    padding-left: 10px;
+    
+  }
+  
+  .services{
+    height:auto;
+    width:100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .services h2{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    width:500px;
+    
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+  }
+  
+  .services h2 span{
+    color:palevioletred;
+  }
+  
+  .mainu{
+    display:flex;
+    flex-direction: column;
+    
+    width: 80vw;
+  }
+  
+  .mainu .ser{
+    height: 475px;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.492);
+    border: 3px solid palevioletred;
+    margin-bottom: 50px;
+    
+  }
+  
+  .ser img{
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  
+  .ser h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    width:250px;
+    height: 50px;
+    
+    padding-top: 15px;
+    padding-left: 0px;
+  
+    
+    
+  }
+  
+  .ser h2 span{
+    color:palevioletred;
+  }
+  
+  .ser p{
+    color: white;
+    height:200px;
+    width:90%;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: left;
+    padding-left: 18px;
+    
+  }
+
+
+  /*bawaal ka ghar*/
+  
+  .animation_section{
+    height:100px;
+    width:100vw;
+    overflow: hidden;
+    
+    margin-top: 20px;
+    
+  }
+  
+  
+  .marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    
+    height:150px;
+    
+    font-size: 80px;
+    
+    -webkit-text-stroke-color: gray;
+    -webkit-text-stroke-width: 2px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
+    color:transparent;
+    
+    
+    
+    
+  }
+  
+  .marquee2 span {
+    animation-delay: 10s;
+    
+    
+    
+    
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+
+  
+
+}
